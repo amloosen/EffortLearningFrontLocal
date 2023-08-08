@@ -1,2 +1,2 @@
-# EffortLearningFrontLocal
- 
+# Effort-Reward Learning Task
+

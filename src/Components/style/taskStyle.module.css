@@ -1,0 +1,360 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  color: white;
+  font-size: 2.5vh;
+  font-family: "Arial", "Arial";
+}
+
+
+.questions {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  color: white;
+  font-size: 3vh;
+  /* padding-bottom: 1vh; */
+  font-family: "Arial";
+  font-weight: bold;
+}
+
+.bigger {
+  font-size:200%;
+  color: rgba(179, 228,157);}
+
+.quizend {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  color: white;
+  font-size: 4vh;
+  font-family: "Arial";
+  font-weight: bold;
+}
+
+
+.cockpit {
+  /* The image used */
+  background-image: url(../img/CockpitBlank.jpg);
+
+  min-height: 100vh;
+  min-width: 10vw;
+
+  /* Full height */
+  height: auto;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.cockpitslider {
+  /* The image used */
+  background-image: url(../img/CockpitBlank.jpg);
+
+  min-height: 100%;
+  min-width: 10vw;
+
+  /* Full height */
+  height: auto;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.slider {
+  max-width: 7vw;
+  min-width: 7vw;
+  padding-bottom: 12vh;
+  pointer-events: none;
+}
+
+.slidertext {
+  padding-bottom: 77vh
+}
+
+.slidertextintro {
+  padding-bottom: 75vh
+}
+
+.sliderEstimateBox {
+  border-style: solid;
+  border-color: white;
+  bottom: 2vh;
+  right: 39vw;
+  position: relative;
+  color: white;
+  font-size: 5vh;
+  font-family: "Arial", "Arial";
+}
+.textblock {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 14vh;
+  left: 0;
+  margin: auto;
+  width: 65vw;
+  height: 60vh;
+}
+
+textarea {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 2vh;
+  padding: 1vh;
+  color: white;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+img.relevInd{
+  width: 200px;
+  height: auto;
+  border: 10px solid green;
+  align-items: center;
+  justify-content: center;
+}
+
+img.relevInd_game{
+  border: 10px solid green;
+  width: 30vh;
+  height: auto;
+  position: relative;
+}
+
+/* Additional styles below */
+span.center {
+  display: table;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 4vh;
+  padding-bottom: 0.4vh;
+  position: relative;
+}
+
+span.gif {
+  width: 20vh;
+  height: auto;
+  position: center;
+}
+
+
+
+
+span.centerOne{
+  display: table;
+  margin: 0 auto;
+  padding-top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span.centerThree {
+  display: table;
+  margin: 0 auto;
+  padding-top: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span.centerThree_intro {
+  display: table;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span.centerThreeIndic {
+  display: table;
+  margin: 0 auto;
+  padding-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img.introImg {
+  max-height: 20vh;
+  height: auto;
+  border: 1vh solid white;
+}
+
+
+img.introImg2 {
+  max-height: 25vh;
+  height: auto;
+  border: 1vh solid white;
+}
+
+img.introImgTwo {
+  /* width: 30vw; */
+  max-height: 16vh;
+  height: auto;
+  border: 1vh solid white;
+}
+
+img.introImgTwo2 {
+  /* width: 30vw; */
+  max-height: 20vh;
+  height: auto;
+}
+
+img.introImgTwo3 {
+  width: 20vw;
+  height: auto;
+}
+
+.elementsize {
+  width: 30vh;
+  height: auto;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 4vh;
+  right: 12vh;
+  pointer-events: none;
+  transition: .3s ease;
+  background-color: transparent;
+}
+
+.overlaytext {
+  position: absolute;
+  top: 10vh;
+  bottom: 0;
+  left: 1vh;
+  right: 0;
+  pointer-events: none;
+  color: white;
+  font-size: 4vh;
+  font-family: "Arial", "Arial";
+}
+
+.overlaybar{
+  height: 100vh;
+  /* Full height */
+  width: 100vw;
+  /* Center and scale the image nicely */
+  position: absolute;
+}
+
+/* .overlaybarsecond{
+  height: 100%;
+  width: 1024px;
+  width: 100vw;
+  position: absolute;
+} */
+
+.container_1 {
+        width: 30vw;
+        height: 10vh;
+        padding-top:1vh;
+      }
+
+.right {  float: right;
+  width: 9vw;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 5vw;
+  font-family: "Arial", "Arial";
+}
+
+.left {float: left;
+  width: 9vw;
+  height: auto;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 5vw;
+  font-family: "Arial", "Arial";
+}
+/*
+span.likeP {
+  padding: 20px;
+} */
+
+
+.indicatortext {
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  left: 40%;
+  right: 0;
+  pointer-events: none;
+  color: white;
+  font-size: 10vh;
+  font-family: "Arial", "Arial";
+}
+
+.overlaycheck {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+/* .counter {
+  position: absolute;
+  right: 20vw;
+  padding-top: 10vh;
+  font-size: 30px;
+  font-family: "Arial", "Arial";
+  color: white;
+} */
+
+.quiztext {
+  margin-bottom: 0.1vh;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: white;
+  font-size: 4vh;
+}
